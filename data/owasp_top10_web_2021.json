@@ -1,0 +1,49 @@
+OWASP_TOP10_WEB_2021 = {
+  "meta": {
+    "edition": "OWASP Top 10 (Web) 2021",
+    "version": "1.0.0-ptBR",
+    "source": "owasp.org/Top10"
+  },
+  "items": {
+    "A01": {
+      "title": "Broken Access Control",
+      "desc": "Controles de acesso ineficazes permitem ações fora do perfil (ex.: acessar/alterar dados de outros usuários)."
+    },
+    "A02": {
+      "title": "Cryptographic Failures",
+      "desc": "Falhas no uso de criptografia expõem dados sensíveis (sem TLS adequado, algoritmos fracos, chaves mal geridas)."
+    },
+    "A03": {
+      "title": "Injection",
+      "desc": "Entradas não validadas permitem injeção de comandos/consultas (SQLi, NoSQLi, LDAPi, OS command)."
+    },
+    "A04": {
+      "title": "Insecure Design",
+      "desc": "Deficiências de arquitetura/design que permitem exploração mesmo com código ‘correto’ (falta de controles por padrão)."
+    },
+    "A05": {
+      "title": "Security Misconfiguration",
+      "desc": "Configurações inseguras/padrões, serviços desnecessários, permissões excessivas, headers ausentes."
+    },
+    "A06": {
+      "title": "Vulnerable and Outdated Components",
+      "desc": "Uso de componentes/libraries com CVEs ou desatualizados em produção, sem gestão de dependências."
+    },
+    "A07": {
+      "title": "Identification and Authentication Failures",
+      "desc": "Falhas de autenticação/gestão de sessão (senhas fracas, tokens mal protegidos, MFA ausente)."
+    },
+    "A08": {
+      "title": "Software and Data Integrity Failures",
+      "desc": "Integridade de software/dados comprometida (supply chain, atualizações não confiáveis, validação insuficiente)."
+    },
+    "A09": {
+      "title": "Security Logging and Monitoring Failures",
+      "desc": "Registro/monitoramento ineficazes dificultam detecção, resposta e investigação de incidentes."
+    },
+    "A10": {
+      "title": "Server-Side Request Forgery (SSRF)",
+      "desc": "Aplicação faz requisições controladas pelo atacante, alcançando recursos internos/metadata services."
+    }
+  }
+}
