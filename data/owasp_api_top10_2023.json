@@ -1,0 +1,49 @@
+OWASP_API_TOP10_2023 = {
+  "meta": {
+    "edition": "OWASP API Security Top 10 2023",
+    "version": "1.0.0-ptBR",
+    "source": "owasp.org/API-Security"
+  },
+  "items": {
+    "API1": {
+      "title": "Broken Object Level Authorization (BOLA)",
+      "desc": "Autorização por objeto falha permite acessar recursos de outros usuários alterando IDs/referências."
+    },
+    "API2": {
+      "title": "Broken Authentication",
+      "desc": "Autenticação fraca ou mal implementada (tokens expostos, rotação ausente, fluxos inseguros)."
+    },
+    "API3": {
+      "title": "Broken Object Property Level Authorization (BOPLA)",
+      "desc": "Exposição/alteração de propriedades que não deveriam ser acessíveis (filtros/mascaração ausentes)."
+    },
+    "API4": {
+      "title": "Unrestricted Resource Consumption",
+      "desc": "Ausência de limites de uso (rate/size/time) permite exaustão de recursos (DoS, custos)."
+    },
+    "API5": {
+      "title": "Broken Function Level Authorization",
+      "desc": "Funções/rotas sensíveis acessíveis sem a devida autorização (ex.: endpoints administrativos)."
+    },
+    "API6": {
+      "title": "Unrestricted Access to Sensitive Business Flows",
+      "desc": "Fluxos críticos de negócio expostos sem fricção/segurança adequada, facilitando abuso de lógica."
+    },
+    "API7": {
+      "title": "Server Side Request Forgery (SSRF)",
+      "desc": "A API realiza requisições externas/internas controladas pelo atacante, expondo serviços internos."
+    },
+    "API8": {
+      "title": "Security Misconfiguration",
+      "desc": "Erros de configuração (CORS permissivo, debug ativo, políticas frágeis, permissões excessivas)."
+    },
+    "API9": {
+      "title": "Improper Inventory Management",
+      "desc": "Inventário deficiente de APIs (shadow/huérfãs/versões antigas) leva a superfícies expostas."
+    },
+    "API10": {
+      "title": "Unsafe Consumption of APIs",
+      "desc": "Confiança excessiva em APIs de terceiros/externas sem validação, tratamento de erros e timeouts."
+    }
+  }
+}
